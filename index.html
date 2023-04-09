@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Home</title>
+
+<style>
+body{background-color: #DDD0C8;}
+}
+.info{text-align: justify; letter-spacing: 1px;}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+   visibility: hidden;
+   width: 200px;
+   background-color: grey;
+   color: #fff;
+   text-align:center;
+   padding: 5px 0;
+   border-radius: 10px;
+   position: absolute;
+   z-index:2;
+ top: 100%;
+  left: 100%;
+  margin-left:-50px;}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.parent{
+border-size: 4 px; border-color: pink; border-style: solid;background: pink;
+}
+
+
+p {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  background-color: grey;
+  position: relative;
+  animation: bishow 6s 0.2s infinite;
+opacity: 0.4; 
+border-radius: 60px;
+}
+#p1{animation-timing-function: linear;}
+#p2 {animation-timing-function: ease; }
+#p3 {animation-timing-function: ease-in; }
+#p4 {animation-timing-function: ease-out; }
+#p5 {animation-timing-function: ease-in-out; }
+
+@keyframes bishow {
+ 0%{background-color:red; left:0px; top:0px;}
+  10%  {background-color:blue; left:200px; top:20px;}
+ 20% {background-color:purple; left:40x; top:50px;}
+30%  {background-color:blue; left:600; top:100px;}
+40%  {background-color:yellow; left:500px; top:150px; }
+50%{ background-color:red; left:400px; top:200px;}
+60%  {background-color:green; left:300;top:150px;}
+ 70%{background-color:blue; left:200px; top:100px;}
+   80%{background-color:yellow; left:100px; top:50px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="parent">
+
+<div class="tooltip">
+<span class="tooltiptext">Welcome to our page</span>
+<a href="home.html" style="text-decoration: none;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div class="tooltip">
+<span class="tooltiptext"> This discusses about our motto and the events we're going to conduct. It also shows the structure of the club</span>
+<a href="about.html" style="text-decoration: none;">About
+Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div class="tooltip">
+<span class="tooltiptext">You can fill out the details below and contact us</span>
+<a href="contact.html" style="text-decoration:none;">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+</div>
+
+<div class="tooltip">
+<span class="tooltiptext"> If you're already a member of CAST, please give us suggestions here</span>
+<a href="feedback.html"style="text-decoration:none;"> Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div class="tooltip">
+<span class="tooltiptext">Register yourself to become a member of the CAST and explore the world of science with a group of creative people that are highly ambitious</span>
+<a href="registration.html" style="text-decoration: none;">Registration</a>
+</div>
+
+</div>
+<p id="p1" align="center" >CLUB</p>
+<p id="p2" align="center">FOR</p>
+<p id="p3" align="center">SCIENCE</p>
+<p id="p4" align="center">AND</p>
+<p id="p5" align="center">TECHNOLOGY</p>
+
+<div class="info">
+Welcome to our club for applied science and technology! This club is designed for students who are passionate about exploring the latest scientific advancements and technological innovations. Our goal is to provide a platform for members to learn about and engage in hands-on activities related to various scientific fields, including biology, chemistry, physics, engineering, and computer science.
+
+As a member of our club, you will have the opportunity to attend lectures, workshops, and conferences led by experts in their respective fields. You will also have the chance to participate in science and technology-related competitions and collaborate with fellow members on projects and experiments.
+<br><br>
+Our club is not only focused on theoretical knowledge but also on practical applications of science and technology. Through our activities, we aim to bridge the gap between theory and real-world applications and prepare members for potential career paths in science and technology-related fields.
+<br><br>
+We welcome all students who are enthusiastic about science and technology, regardless of their academic background or experience. Our club provides a supportive and inclusive environment where members can learn, grow, and connect with others who share their interests.
+<br><br>
+
+We look forward to meeting you and embarking on an exciting journey of discovery and innovation together!
+</div>
+
+
+
+
+<div class="parent">
+
+<marquee behaviour="alternate" direction="right"> CAST Copyright©2023</marquee> </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
